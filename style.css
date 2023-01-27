@@ -1,0 +1,118 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+  }
+  
+  .section-header {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 50px;
+  }
+  a{
+    color: black;
+    text-decoration: none;
+  }
+  /* header section */
+  header {
+    width: 100%;
+    height: 70px;
+    /* background: #5f78e6; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 40px;
+    margin: 0 auto;
+}
+  img{
+    width: 200px;
+  }
+  .header-paragraph {
+    font-size: 30px;
+    font-weight: 600;
+  }
+  hr
+  {
+    border-top: 1px solid black;
+  }
+  .container
+  {
+    margin-top: 75px;
+  }
+  /* navigation section */
+.logo {
+    width: 80px;
+}
+.logo img{
+  width: 100%;
+}
+nav .logo {
+    display: none;
+}
+nav .menu {
+    display: flex;
+    padding: 0 20px;
+}
+nav .menu a {
+    color: black;
+    margin: 0 2px;
+    text-decoration: none;
+    font-weight: 400;
+    transition: 0.5s;
+    background-color: #5f78e6;
+    margin-bottom: 5px;
+    padding: 15px;
+    border-radius: 5px;
+    width: 25%;
+    display: block;
+    text-align: center;
+}
+nav .menu a:hover {
+    background: #b1ff75;
+    /* color: white; */
+}
+nav {
+    transition: 0.2s;
+    width: 60%;
+}
+/* CV Button */
+.cvbtn{
+  background: #5f78e6;
+  padding: 5px;
+  border-radius: 20px;
+  text-decoration: none;
+}
+.cvbtn:hover, .cvbtn:focus{
+  background-color: #b1ff75;
+  /* color: white; */
+  transition: 0.2s;
+  text-decoration: none;
+}
+/* Social Icons */
+ion-icon {
+  font-size: 24px;
+  vertical-align: text-bottom;
+}
+span
+{
+  margin-left: 10px;
+}
+.social-icon {
+  color: #5f78e6;
+  transition: 0.5s;
+  margin: 0 10px;
+}
+.social-icon:hover,
+.social-icon:focus {
+  color: black;
+}
+/* .top-button {
+  color: #fff;
+  background-color: #5f78e6;
+  padding: 8px 16px;
+  border-radius: 50px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.top-button:hover,
+top-button:focus {
+} */
